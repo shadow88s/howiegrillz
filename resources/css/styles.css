@@ -1,0 +1,114 @@
+html {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+/* Navigation Bar */
+nav {
+    width:100%;
+    padding: 0.625rem;
+    border-bottom: #c3c4c6 1px solid;
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    text-shadow: 0.125rem 0.125rem 0.5rem gray;
+    z-index: 1;
+    background-color: white;
+}
+
+nav > * {
+    flex: 1 1 30%;
+}
+
+nav .logo {
+    display: flex;
+    flex-direction: default;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav .links ul,
+nav .icons ul {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+nav .icons img {
+   width: 70%;
+   height: auto;
+}
+
+nav .links ul {
+    justify-content: center;
+}
+
+nav .links ul li {
+    margin: 0 0.75rem;
+    font-size: 1.5rem;
+}
+
+/*Header*/
+header {
+    position: relative;
+    top: 10.775rem;
+
+}
+
+
+main {
+    position: relative;
+    top: 15.775rem;
+    /* border: red solid 10px; */
+    text-shadow: 0.125rem 0.125rem 0.5rem gray;
+    font-size: 20px;
+}
+
+.banner {
+    width: 100%;
+}
+
+.banner img {
+    height: auto;
+    width: 90%;
+}
+
+/* Products */
+.products {
+    position: relative;
+    top: 5.775rem;
+    border: black solid 10px;
+    width: 100%;
+    display:inline-flex;
+
+}
+
+/* Products */
+.products img{
+    width: 100%;
+
+}
+.products h1{
+    text-align: center;
+    font-size: 35px;
+}
+
+.brisket {
+    width: 33%;
+    padding: 10px;
+}
+
+.beef-short-ribs {
+    width: 33%;
+    padding: 10px;
+}
+
+.chicken-wings {
+    width: 33%;
+    padding: 10px;
+
+}

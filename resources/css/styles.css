@@ -112,3 +112,22 @@ main {
     padding: 10px;
 
 }
+@media only screen and (min-width: 491px) and (max-width: 540px) {
+    html {
+        font-size: 9px;
+    }
+
+    * {
+        scroll-padding-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    html {
+        font-size: 8px;
+    }
+
+    * {
+        scroll-padding-top: 0;
+    }
+}
